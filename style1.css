@@ -1,0 +1,554 @@
+body{
+    
+    background-color: beige;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+        div[class="main-contaner"]
+{
+    float: left;
+    background-color:cornsilk;
+    width: 1300px;
+    height: 1550px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+    
+}
+
+div[class="container-for-pic"]
+{
+    width: 1298px;
+     height: 200px;
+    background-color: darkgreen;
+    display: inline-flex;
+     border: 1px solid black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom: 0px;
+    
+     
+}
+
+div[class="logo"]
+{
+    background-image: url(za.png);
+     background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    display: inline;
+    background-size: 150px;
+    margin-left: 300px;
+    margin-top: 25px;
+}
+
+div[class="header-pic"]
+{
+      
+      
+        width: 700px;
+        height: 150px;
+        background-image: url(zakis1.PNG);
+      background-repeat: no-repeat;
+    margin-left: 0px;
+}
+
+div[class="nav"] ul
+{
+    list-style: none;
+    
+     display:inline-block;
+    margin-left:15px;
+    margin-top: 8px;
+    
+}
+
+div[class="nav"] ul li{
+    
+    float: left;
+   
+     width: 200px;
+    
+    font-size: 20px;
+   /* background-color: #aaf;*/
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+  
+   
+}
+div[class="nav"] ul li a{
+    
+    text-decoration: none;
+    color:black;
+    display: block;
+    background-color:darkorange;
+    
+    
+}
+
+div[class="nav"] ul li a:hover{
+    
+    
+    color:greenyellow;
+    background-color: black;
+    
+    
+}
+
+div[class="nav"] ul li a:active{
+    
+    
+    color:red;
+    background-color: yellow;
+    
+    
+}
+
+div[class="intro"]
+{
+    
+    width: 1298px;
+    height: 500px;
+   
+    
+}
+div[class="pic-nav"]
+{
+    width: 1300px;
+   
+    
+}
+
+div[class="nav-back"]
+{
+    background-color: darkgreen;
+    display: inline-block;
+    width: 1300px;
+}
+
+span[class="admission"]
+{
+    
+    color:#D82F3A;
+    
+    font-size: 36px;
+    
+    line-height: 1.1;
+    
+}
+
+span[class="reg"]
+{
+    
+    color:#333;
+    
+    font-size: 20px;
+  
+}
+input[type="submit"]
+{
+    
+    color: #fff;
+    border-color: #ac1100;
+    background-color: #ff2a13;
+    margin-bottom: 0.25em;
+    text-shadow: 0 0.075em 0.075em rgba(0,0,0,0.5);
+    box-shadow: 0 0.25em 0 0 #a71000,0 4px 9px rgba(0,0,0,0.75);
+    border-radius: 0.25em;
+}
+
+legend{color:darkorange}
+
+div[class="news-events-container-left"]
+{
+    width: 649px;
+    /*background-color: red;*/
+    height: 1000px;
+    display: inline;
+    float: left;
+    /*border: 1px solid red;*/
+}
+
+div[class="news-events-container-right"]
+{
+    width: 649px;
+    /*background-color: red;*/
+    height: 1000px;
+    display: inline;
+    float: left;
+    
+    /*border: 1px solid red;*/
+}
+
+table[class="table-career"]
+{
+    margin-left:10px; 
+    line-height:30px; 
+    align-content:justify; 
+    border: 1px solid #dddddd; 
+    border-collapse:collapse;
+    
+}
+td,tr,td{
+    border: 1px solid red;
+    text-align: left;
+    padding: 8px;
+    vertical-align: top;
+    
+    
+}
+
+div[class="news-events-container-left-table"]
+{
+    width: 649px;
+    /*background-color: red;*/
+    height: 1000px;
+    display: inline;
+    float: left;
+    /*border: 1px solid red;*/
+}
+    }
+
+
+    @media only screen and (min-width:2000px){
+        /* for sumo sized (mac) screens */
+        
+        div[class="main-contaner"]
+{
+    float: left;
+    background-color:cornsilk;
+    width: 1300px;
+    height: 1600px;
+    margin-left: 137px;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+    
+}
+
+div[class="container-for-pic"]
+{
+    width: 1300px;
+     height: 200px;
+    background-color: darkgreen;
+    display: inline-flex;
+     border: 1px solid black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom: 0px;
+    
+     
+}
+
+div[class="logo"]
+{
+    background-image: url(za.png);
+     background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    display: inline;
+    background-size: 150px;
+    margin-left: 300px;
+    margin-top: 25px;
+}
+
+div[class="header-pic"]
+{
+      
+      
+        width: 700px;
+        height: 150px;
+        background-image: url(zakis1.PNG);
+      background-repeat: no-repeat;
+    margin-left: 0px;
+}
+
+div[class="nav"] ul
+{
+    list-style: none;
+    
+     display:inline-block;
+    margin-left:15px;
+    margin-top: 8px;
+    
+}
+
+div[class="nav"] ul li{
+    
+    float: left;
+   
+     width: 200px;
+    
+    font-size: 20px;
+   /* background-color: #aaf;*/
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    /*box-shadow: 0px 1px 3px grey;*/
+    
+}
+div[class="nav"] ul li a{
+    
+    text-decoration: none;
+    color:black;
+    display: block;
+    
+}
+
+div[class="nav"] ul li a:hover{
+    
+    
+    color:cornsilk;
+    background-color: black;
+    
+    
+}
+
+div[class="intro"]
+{
+    
+    width: 1298px;
+    height: 500px;
+   
+    
+}
+div[class="pic-nav"]
+{
+    width: 1300px;
+   
+    
+}
+
+div[class="nav-back"]
+{
+    background-color: darkgreen;
+    display: inline-block;
+    width: 1300px;
+}
+
+span[class="admission"]
+{
+    
+    color:#D82F3A;
+    
+    font-size: 36px;
+    
+    line-height: 1.1;
+    
+}
+
+span[class="reg"]
+{
+    
+    color:#333;
+    
+    font-size: 20px;
+  
+}
+input[type="submit"]
+{
+    
+    color: #fff;
+    border-color: #ac1100;
+    background-color: #ff2a13;
+    margin-bottom: 0.25em;
+    text-shadow: 0 0.075em 0.075em rgba(0,0,0,0.5);
+    box-shadow: 0 0.25em 0 0 #a71000,0 4px 9px rgba(0,0,0,0.75);
+    border-radius: 0.25em;
+}
+
+legend{color:darkorange}
+
+div[class="news-events-container-left"]
+{
+    width: 649px;
+    /*background-color: red;*/
+    height: 1000px;
+    display: inline;
+    float: left;
+    /*border: 1px solid red;*/
+}
+
+div[class="news-events-container-right"]
+{
+    width: 649px;
+    /*background-color: red;*/
+    height: 1000px;
+    display: inline;
+    float: left;
+    
+    /*border: 1px solid red;*/
+}
+
+table[class="table-career"]
+{
+    margin-left:10px; 
+    line-height:30px; 
+    align-content:justify; 
+    border: 1px solid #dddddd; 
+    border-collapse:collapse;
+    
+}
+td,tr,td{
+    border: 1px solid red;
+    text-align: left;
+    padding: 8px;
+    vertical-align: top;
+    
+    
+}
+
+div[class="news-events-container-left-table"]
+{
+    width: 649px;
+    /*background-color: red;*/
+    height: 1000px;
+    display: inline;
+    float: left;
+    /*border: 1px solid red;*/
+}
+    }
+
+form[name="aplied"] 
+{
+    font-size: 13px;
+    line-height: 20px;
+    color:#6988A5;
+    
+}
+
+div[class="contact-container-left"]
+{
+    width: 600px;
+    /*background-color: red;*/
+    height: 540px;
+    display: inline;
+    float: left;
+
+}
+
+div[class="contact-container-right"]
+{
+    width: 649px;
+    /*background-color: red;*/
+    height: 540px;
+    display: inline;
+    float: left;
+    
+   
+}
+
+div[class="contact"]
+
+{
+    
+    float:inherit;
+    width: 600px;
+    align-content: center;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+button[class="btn"]
+{
+    color: #ffffff;
+    text-shadow: none;
+    background: #7cbb00;
+}
+
+div[class="links"]
+{
+    background-color: #7cbb00;;
+    width: 1298px;
+    height: 240px;
+    margin-top: 920px;
+}
+
+div[class="footer"]
+{
+    background-color: black;
+    width: 1298px;
+    height: 67px;
+    margin-top: 0x;
+    color: #333333;;
+    font-size: 15px;
+    color: white;
+}
+
+div[class="get"] 
+{
+    text-align: center;
+    font-size: 15px;
+    
+    display: inline-block;
+    width: 350px;
+    clear: both;
+    height: 200px;
+   
+}
+
+div[class="pages"] 
+{
+    text-align: center;
+    font-size: 15px;
+    margin-left: 20px;
+    display: inline-block;
+    width: 350px;
+    height: 230px;
+    clear: both;
+}
+
+div[class="pages"] a
+{
+    text-decoration: none;
+    color: black;
+
+    
+}
+
+div[class="pages"] a:hover
+{
+    text-decoration:underline;
+
+
+    
+}
+
+
+div[class="sub"] 
+{
+    text-align: center;
+    font-size: 15px;
+    margin-left: 200px;
+    display: inline-block;
+    width: 350px;
+    height: 230px;
+   
+    clear: both;
+    
+    
+}
+div[class="sub"] a:hover
+{
+    
+    border: 1px solid darkorange;
+    display:inline-block;
+    margin-left: 10px;
+}

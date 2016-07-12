@@ -1,0 +1,102 @@
+<!Doctype HTML>
+
+<html>
+    
+    <head>
+        
+        <title>Zaki's Accademy</title>
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" type="text/css" href="style1.css">
+        
+       
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <style>
+    .mySlides {display:none;}
+        </style>
+    
+    
+    </head>
+    
+    <body>
+        
+        <div class="main-contaner">
+        
+            <div class="container-for-pic">
+                <div class="logo"></div>
+                
+                <div class="header-pic"></div>
+               
+            
+            </div>
+            
+            <div class="pic-nav">
+                
+                
+               <div class="nav-back"> <div class="nav">
+            <ul>
+
+                <li>    <a href="index.html">Home</a>            </li>
+                <li>    <a href="About.html">About</a>         </li>
+                <li>    <a href="Admission.html">Admissoins</a>              </li>
+                <li>    <a href="News&Events.html">News & Events</a>          </li>
+                <li>    <a href="Careers.html">Careers</a>        </li>
+                 <li>    <a href="contact.html">Contact us</a>        </li>
+               
+                
+               
+            </ul>
+            
+            </div></div>
+                
+                <div class="w3-content w3-section" style="max-width:1300px">
+                    <img class="mySlides" src="sch11.png" style="width:1300px; height:400px; ">
+  <img class="mySlides" src="sch1.jpg" style="width:1300px; height:400px; ">
+  <img class="mySlides" src="sch2.jpg" style="width:1300px; height:400px;">
+  <img class="mySlides" src="sch3.jpg" style="width:1300px; height:400px;">
+  <img class="mySlides" src="sch4.jpg" style="width:1300px; height:400px; ">
+  <img class="mySlides" src="sch5.jpg" style="width:1300px; height:400px;">
+  <img class="mySlides" src="sch6.jpg" style="width:1300px; height:400px;">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script> 
+            
+            </div>
+            
+            
+            <div class="intro">
+                
+                <br><br><h1 style="color: #003300; font-size:2em; font-weight:bold; margin-left: 200px;">Introduction</h1>
+                <p style="font-family: sans-serif; font-size:1.2em;  width:1100px; height:220px; line-height:40px; margin-left: 100px;"><img src="presentation_12.jpg" align="right" style="width:200px; height:200px; border: 1px solid black; border-radius:50px;"  >Zaki's Academy is a private O and A Level institution established in 2011 with the prime objective of providing quality education. 
+The FPS A Level Programme, initiated in 2013, affiliated with the Cambridge International Examination (CIE) strives to provide a nurturing environment to enable students to excel in both academics and extracurricular activities.<br>The motto of the school &#39;&#39;Knowledge Is Power&#39;&#39; is portrayed in the insignia encompassed on a shield is the &#39;&#39;Eagle&#39;&#39; or "Shaheen&#39;&#39;. Chosen by the Management as it inspires and symbolizes intelligence, it also signifies a flight towards freedom and knowledge.</p>
+             <br><br><br><br><br><br><br><br>
+            <h1 style="color: #003300; font-size:2em; font-weight:bold; margin-left: 200px;">Philosophy</h1>
+            <p style="font-family: sans-serif; font-size:1.2em; width:1100px; height:300px; line-height:40px; margin-left: 100px; "><img src="faith1.jpg" align="right" style="width:200px; height:200px;  border: 1px solid black; border-radius:50px;"  >We at Zaki's Academy believe in the individuals freedom of thought and spirit, scientific inquiry and critical thinking. We aim at providing opportunities for our students to flourish and learn in a conducive environment. We hope to prepare students to grow and develop into mature human beings capable of making decisions realistically with compassion.</p>
+            
+            
+            </div>
+            
+            
+            
+        
+        </div>
+    
+    </body>
+
+
+</html>
